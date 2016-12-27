@@ -180,7 +180,6 @@ window.Hangman = (function() {
         }
     };
 
-    //Replacing a string at a particular position - http://stackoverflow.com/questions/2236235/how-to-replace-a-string-at-a-particular-position
     function replaceAt(s, n, t) {
         return s.substring(0, 2*n) + t + s.substring(2*n + 1);
     }
